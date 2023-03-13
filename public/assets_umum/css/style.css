@@ -12,6 +12,11 @@ header{
 	height:660px;
 }
 
+.my-150 {
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
 .top-head{
 	position:relative;
 	left:0;
@@ -66,10 +71,25 @@ header{
 .banner-part .carousel-caption h1 span{
 	margin-bottom: 5px;
 }
-.banner-part .carousel-item img{
+/* .banner-part .carousel-item img{
 	display: table;
 	margin-left: auto;
+} */
+.banner-part .carousel-item img{
+	height: 100vh;
+	width: 100vw;
 }
+
+@media (max-width: 767px) {
+	.banner-part .carousel-item img{
+		height: 100%;
+		width: 100%;
+	}
+	.new-add-school {
+		margin-bottom: 160px !important;
+	}
+}
+
 .banner-part .carousel-caption h1, .banner-part .carousel-caption p{
 	text-align: left;
 
@@ -168,8 +188,8 @@ header{
 .medi-services{
 	position: relative;
 	z-index: 2;
-	top:40px;
-	margin-bottom: 20px;
+	top:260px;
+	/* margin-bottom: 20px; */
 }
 
 .medi-services .row > div{
@@ -905,10 +925,16 @@ form{
 
 
 }
-.new-add-school{
+/* .new-add-school{
 	padding: 50px 0 0 0;
 	position: relative;
+} */
+.new-add-school{
+	padding-top: 30%;
+	/* position: relative; */
+	margin-bottom: 10%;
 }
+
 .new-add-school h1 span {
     display: block;
     font-size: 20px;

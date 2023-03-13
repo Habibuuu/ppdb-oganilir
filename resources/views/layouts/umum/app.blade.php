@@ -66,7 +66,7 @@
 
 <body>
 
-    @include('layouts.umum.header');
+    @include('layouts.umum.header')
 
 
     <div>

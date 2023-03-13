@@ -1,133 +1,5 @@
 <div>
-    <div class="banner-part d-grid align-content-center">
 
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-
-            <div class="carousel-indicators d-lg-none">
-
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-
-            </div>
-
-            <div class="carousel-inner">
-
-                <div class="carousel-item active">
-
-                    <img src="{{ asset('assets_umum/images/banner_pic3.png') }}" alt="banner-1">
-
-
-                    {{-- @dd($kontak->telp) --}}
-                    {{-- <div class="carousel-caption">
-
-                        <div class="container">
-
-                            <h1> <span> Kabupaten Ogan Ilir </span>
-
-                                <span class="d-block"> Penerimaan <b> Peserta </b> </span>
-
-                                <span class="d-block"> Didik </span>
-
-                            </h1>
-
-                            <p>Tahun Pelajaran 2023/2024</p>
-
-                            <div class="d-flex">
-
-                                <a href="#" class="btn book-bn-comon btn btn-info"> Discover more
-
-                                    <i class="fas fa-paper-plane"></i> </a>
-
-
-
-                            </div>
-
-
-
-                        </div>
-
-                    </div> --}}
-
-
-
-                </div>
-
-                <div class="carousel-item">
-
-                    <img src="{{ asset('assets_umum/images/banner-pic2.jpg') }}"  style="width:100%;" alt="banner-1">
-
-                    <div class="carousel-caption">
-
-                        {{-- <div class="container">
-
-                            <h1> <span> Zonasi, Afirmasi, Perpindahan Orang Tua, <br> Prestasi </span>
-
-                                <span class="d-block">Terpusat </b> </span>
-
-
-                            </h1>
-
-                            <p>Kapanpun dan Dimanapun, Cepat, Realtime dan Transparan.</p>
-
-
-                        </div> --}}
-
-                    </div>
-
-                </div>
-                <div class="carousel-item">
-
-                    <img src="{{ asset('assets_umum/images/banner-pic.jpg') }}"  style="width:100%;" alt="banner-1">
-
-                    <div class="carousel-caption">
-
-                        {{-- <div class="container">
-
-                            <h1> <span> Zonasi, Afirmasi, Perpindahan Orang Tua, <br> Prestasi </span>
-
-                                <span class="d-block">Terpusat </b> </span>
-
-
-                            </h1>
-
-                            <p>Kapanpun dan Dimanapun, Cepat, Realtime dan Transparan.</p>
-
-
-                        </div> --}}
-
-                    </div>
-
-                </div>
-
-
-
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-
-                <i class="bi bi-chevron-left"></i>
-
-            </button>
-
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-
-                <i class="bi bi-chevron-right"></i>
-
-            </button>
-
-        </div>
-
-
-
-    </div>
 
     <div class="medi-services">
 
@@ -263,6 +135,20 @@
         </div>
 
         <!-- prakata kepala dinas  -->
+
+
+        {{-- <div class="kite">
+
+            <div class="tail"></div>
+
+        </div> --}}
+
+
+
+    </div>
+
+    <div class="prakata my-150">
+
         <div class="container">
 
             <div class="row row-cols-1 row-cols-md-2">
@@ -331,15 +217,6 @@
             </div>
 
         </div>
-
-        {{-- <div class="kite">
-
-            <div class="tail"></div>
-
-        </div> --}}
-
-
-
     </div>
 
 {{--
